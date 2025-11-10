@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/c++/chislaki/build/cmake_install.cmake",
+		"D:/c++/chislaki/build/src/cmake_install.cmake",
+		"D:/c++/chislaki/build/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

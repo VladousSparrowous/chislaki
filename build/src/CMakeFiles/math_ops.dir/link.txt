@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libmath_ops.a CMakeFiles/math_ops.dir/matrix_vectors_operations.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libmath_ops.a
