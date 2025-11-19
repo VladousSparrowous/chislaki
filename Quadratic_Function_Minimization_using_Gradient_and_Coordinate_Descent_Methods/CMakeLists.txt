@@ -1,2 +1,7 @@
-add_executable(Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods main.cpp)
-target_link_libraries(Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods PRIVATE math_ops)
+add_subdirectory(src)
+
+add_executable(main main.cpp)
+
+target_link_libraries(main PRIVATE methods math_ops)
+
+target_include_directories(main PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)

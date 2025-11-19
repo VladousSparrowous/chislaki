@@ -8,3 +8,4 @@ include_directories(include)
 
 add_subdirectory(src)
 add_subdirectory(Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods)
+add_subdirectory(Approximations_And_Interpolations_Of_Functions)

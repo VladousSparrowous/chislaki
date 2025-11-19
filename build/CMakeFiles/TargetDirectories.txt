@@ -3,6 +3,11 @@ D:/c++/chislaki/build/CMakeFiles/rebuild_cache.dir
 D:/c++/chislaki/build/src/CMakeFiles/math_ops.dir
 D:/c++/chislaki/build/src/CMakeFiles/edit_cache.dir
 D:/c++/chislaki/build/src/CMakeFiles/rebuild_cache.dir
-D:/c++/chislaki/build/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir
+D:/c++/chislaki/build/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir
 D:/c++/chislaki/build/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/edit_cache.dir
 D:/c++/chislaki/build/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/rebuild_cache.dir
+D:/c++/chislaki/build/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir
+D:/c++/chislaki/build/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/edit_cache.dir
+D:/c++/chislaki/build/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/rebuild_cache.dir
+D:/c++/chislaki/build/Approximations_And_Interpolations_Of_Functions/CMakeFiles/edit_cache.dir
+D:/c++/chislaki/build/Approximations_And_Interpolations_Of_Functions/CMakeFiles/rebuild_cache.dir

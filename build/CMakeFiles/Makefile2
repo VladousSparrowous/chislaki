@@ -64,41 +64,86 @@ CMAKE_BINARY_DIR = D:\c++\chislaki\build
 # The main recursive "all" target.
 all: src/all
 all: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/all
+all: Approximations_And_Interpolations_Of_Functions/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: src/codegen
 codegen: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/codegen
+codegen: Approximations_And_Interpolations_Of_Functions/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: src/preinstall
 preinstall: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/preinstall
+preinstall: Approximations_And_Interpolations_Of_Functions/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: src/clean
 clean: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/clean
+clean: Approximations_And_Interpolations_Of_Functions/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Approximations_And_Interpolations_Of_Functions
+
+# Recursive "all" directory target.
+Approximations_And_Interpolations_Of_Functions/all:
+.PHONY : Approximations_And_Interpolations_Of_Functions/all
+
+# Recursive "codegen" directory target.
+Approximations_And_Interpolations_Of_Functions/codegen:
+.PHONY : Approximations_And_Interpolations_Of_Functions/codegen
+
+# Recursive "preinstall" directory target.
+Approximations_And_Interpolations_Of_Functions/preinstall:
+.PHONY : Approximations_And_Interpolations_Of_Functions/preinstall
+
+# Recursive "clean" directory target.
+Approximations_And_Interpolations_Of_Functions/clean:
+.PHONY : Approximations_And_Interpolations_Of_Functions/clean
 
 #=============================================================================
 # Directory level rules for directory Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods
 
 # Recursive "all" directory target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/all: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/all
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/all: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/all
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/all: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/all
 .PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/all
 
 # Recursive "codegen" directory target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/codegen: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/codegen
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/codegen: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/codegen
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/codegen: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/codegen
 .PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/codegen
 
 # Recursive "preinstall" directory target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/preinstall:
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/preinstall: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/preinstall
 .PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/preinstall
 
 # Recursive "clean" directory target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/clean: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/clean
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/clean: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/clean
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/clean: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/clean
 .PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/clean
+
+#=============================================================================
+# Directory level rules for directory Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src
+
+# Recursive "all" directory target.
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/all: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/all
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/all
+
+# Recursive "codegen" directory target.
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/codegen: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/codegen
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/codegen
+
+# Recursive "preinstall" directory target.
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/preinstall:
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/preinstall
+
+# Recursive "clean" directory target.
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/clean: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/clean
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/clean
 
 #=============================================================================
 # Directory level rules for directory src
@@ -152,36 +197,69 @@ src/CMakeFiles/math_ops.dir/clean:
 .PHONY : src/CMakeFiles/math_ops.dir/clean
 
 #=============================================================================
-# Target rules for target Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir
+# Target rules for target Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir
 
 # All Build rule for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/all: src/CMakeFiles/math_ops.dir/all
-	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/depend
-	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\c++\chislaki\build\CMakeFiles --progress-num=1,2 "Built target Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods"
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/all
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/all: src/CMakeFiles/math_ops.dir/all
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/all: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/all
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\main.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\main.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\c++\chislaki\build\CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\c++\chislaki\build\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/all
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\c++\chislaki\build\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\c++\chislaki\build\CMakeFiles 0
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/rule
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/rule
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods
+main: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/rule
+.PHONY : main
 
 # codegen rule for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\c++\chislaki\build\CMakeFiles --progress-num=1,2 "Finished codegen for target Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods"
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/codegen
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\main.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\c++\chislaki\build\CMakeFiles --progress-num=1,2 "Finished codegen for target main"
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/codegen
 
 # clean rule for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/clean
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/clean
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\main.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/clean
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir
+
+# All Build rule for target.
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/all: src/CMakeFiles/math_ops.dir/all
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\src\CMakeFiles\methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/depend
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\src\CMakeFiles\methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\c++\chislaki\build\CMakeFiles --progress-num=5,6 "Built target methods"
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/all
+
+# Build rule for subdir invocation for target.
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\c++\chislaki\build\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\c++\chislaki\build\CMakeFiles 0
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/rule
+
+# Convenience name for target.
+methods: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/rule
+.PHONY : methods
+
+# codegen rule for target.
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\src\CMakeFiles\methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\c++\chislaki\build\CMakeFiles --progress-num=5,6 "Finished codegen for target methods"
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/codegen
+
+# clean rule for target.
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\src\CMakeFiles\methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/clean
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

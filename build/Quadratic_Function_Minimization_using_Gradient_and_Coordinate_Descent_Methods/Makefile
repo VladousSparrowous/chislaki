@@ -116,25 +116,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/rule:
-	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/rule
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/rule
+Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/rule:
+	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/rule
+.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/rule
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods
+main: Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/rule
+.PHONY : main
 
 # fast build rule for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/fast:
-	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/build
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/fast
+main/fast:
+	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\main.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/main.cpp.obj
+	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\main.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/main.cpp.i
+	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\main.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/main.cpp.s
+	cd /d D:\c++\chislaki\build && $(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\main.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods
+	@echo ... main
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

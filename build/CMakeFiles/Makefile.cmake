@@ -32,8 +32,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake"
+  "D:/c++/chislaki/Approximations_And_Interpolations_Of_Functions/CMakeLists.txt"
   "D:/c++/chislaki/CMakeLists.txt"
   "D:/c++/chislaki/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeLists.txt"
+  "D:/c++/chislaki/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeLists.txt"
   "CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeRCCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeSystem.cmake"
@@ -51,10 +53,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Approximations_And_Interpolations_Of_Functions/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/math_ops.dir/DependInfo.cmake"
-  "Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/DependInfo.cmake"
+  "Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/DependInfo.cmake"
+  "Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/DependInfo.cmake"
   )

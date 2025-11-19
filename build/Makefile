@@ -129,17 +129,30 @@ math_ops/fast:
 .PHONY : math_ops/fast
 
 #=============================================================================
-# Target rules for targets named Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods
+# Target rules for targets named main
 
 # Build rule for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/fast:
-	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods.dir/build
-.PHONY : Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\CMakeFiles\main.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named methods
+
+# Build rule for target.
+methods: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 methods
+.PHONY : methods
+
+# fast build rule for target.
+methods/fast:
+	$(MAKE) $(MAKESILENT) -f Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods\src\CMakeFiles\methods.dir\build.make Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods/src/CMakeFiles/methods.dir/build
+.PHONY : methods/fast
 
 # Help Target
 help:
@@ -149,8 +162,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Quadratic_Function_Minimization_using_Gradient_and_Coordinate_Descent_Methods
+	@echo ... main
 	@echo ... math_ops
+	@echo ... methods
 .PHONY : help
 
 

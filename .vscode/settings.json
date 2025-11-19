@@ -4,6 +4,7 @@
         "iomanip": "cpp",
         "vector": "cpp",
         "iosfwd": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "fstream": "cpp"
     }
 }
